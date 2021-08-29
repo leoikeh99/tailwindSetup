@@ -1,0 +1,12 @@
+{
+  "name": "tailwindstarter",
+  "version": "1.0.0",
+  "description": "Tailwind setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css" 
+  },
+  "author": "Wazza",
+  "license": "ISC"
+}
